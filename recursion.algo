@@ -1,0 +1,18 @@
+let word = "madam";
+function is palindrome (word, left, right){
+if   (word.length == 0  / left == right) {
+consolse.log("it's palindrome");
+return true;
+}
+else
+    {
+        if(word[left] == word[right]) {
+            ispalindrome(word,left + 1, right - 1);
+}
+else {
+    console .log("it's not pamindrome ");
+    return false;
+}
+}
+ };
+ ispalindrome(word, 0, word.length - 1 );
